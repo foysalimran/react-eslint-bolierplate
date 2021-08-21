@@ -58,6 +58,6 @@
   },
   "lint-staged": {
     "*{.tsx,.ts}": "npx eslint '**/*{.ts,.tsx}' --fix",
-    "*.{ts,tsx,css,md}": "prettier --write"
+    "*.{ts,tsx,css,md}": "npx prettier --write"
   }
 }
